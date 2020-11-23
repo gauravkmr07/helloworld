@@ -1,0 +1,17 @@
+{
+    "name": "gauravkumar/learncomposer",
+    "description": "a simple hello world package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gauravkumar07nagarro",
+            "email": "gaurav.kumar07@nagarro.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"GauravKumar\\HelloWorld\\": "src/"}
+    },
+    "require": {}
+}
